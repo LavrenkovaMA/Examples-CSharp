@@ -82,7 +82,7 @@ void PrintImage(int[,] image)
     {
        // Console.Write($"{image[i, j]}");
        if(image[i, j] == 0)Console.Write($" ");
-       else Console.Write($"+");
+       else Console.Write($"x");
     }
     Console.WriteLine();
     }
@@ -100,7 +100,6 @@ void FillImage(int row, int col)
 
     }
 }
-PrintImage (pic);
 FillImage(6, 6);
 PrintImage (pic);
 
